@@ -29,8 +29,10 @@
 
 
     <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <style id="holderjs-style" type="text/css"></style>
 
-    <style id="holderjs-style" type="text/css"></style></head>
+    </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
@@ -46,13 +48,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="http://getbootstrap.com/examples/carousel/#">Cerebro</a>
+              <a class="navbar-brand" href="">Cerebro</a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="http://getbootstrap.com/examples/carousel/#contact">Visuals</a></li>
+            
+<!--
                 <li class="dropdown">
                   <a href="http://getbootstrap.com/examples/carousel/#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
@@ -65,6 +69,8 @@
                     <li><a href="http://getbootstrap.com/examples/carousel/#">One more separated link</a></li>
                   </ul>
                 </li>
+                -->
+              
               </ul>
             </div>
           </div>
@@ -145,42 +151,42 @@
         <div class="col-lg-4">
           <img class="img-circle" src="prototype.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
 
-          <!--
+          
 
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <h2>Stage one</h2>
+          <p>First thing we did was find the research and created a mock up model of what it was going to look like using the lazer pinter.</p>
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
 
-			-->
+		
 
         </div><!-- /.col-lg-4 -->
+        
         <div class="col-lg-4">
           <img class="img-circle" src="circits.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
 
 
-          <!--
+          
 
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <h2>Stage two</h2>
+          <p>Created all the circuitry on the 3D printed model to allow current to run through the device Cerebro. After that was complete we created a video showing that it worked in being able to hold a current matching the reasearch we found. </p>
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
 
-		-->
+	
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="web.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
 
-          <!--
+          
 
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Stage 3 and future</h2>
+          <p>This stage we created a brochure using bootstrap to show that this model actually works with some data to provide it. Are future plans are to expand the data points that was created in this study to see if can help with other things besides learning.</p>
           <p><a class="btn btn-default" href="http://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
 
-			-->
+		
 
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
-
 
       <!-- START THE FEATURETTES -->
 
@@ -189,13 +195,19 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7">
+
+        		<div id="about">
           <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
+        </div>
+        
         <div class="col-md-5">
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjI1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjMxcHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+NTAweDUwMDwvdGV4dD48L3N2Zz4=">
         </div>
       </div>
+
+      <!--
 
       <hr class="featurette-divider">
 
@@ -226,6 +238,8 @@
 
 
       <hr class="featurette-divider">
+
+      -->
 
       <!-- /END THE FEATURETTES -->
 

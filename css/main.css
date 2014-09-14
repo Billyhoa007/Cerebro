@@ -1,3 +1,7 @@
 #about {
 	padding-top:10vh;
 }
+
+.navbar-wrapper {
+	position: fixed;
+}
